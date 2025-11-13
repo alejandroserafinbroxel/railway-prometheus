@@ -18,10 +18,9 @@ scrape_configs:
     static_configs:
       - targets: ['localhost:9090']
   
-  - job_name: 'demo_application'
-    scrape_interval: 5s
+  - job_name: 'n8n-main'
     static_configs:
-      - targets: ['demo.do.prometheus.io:9090']
+      - targets: ['primary-production-2413.up.railway.app']
 
   # - job_name: 'postgres'
   #   scrape_interval: 5s
