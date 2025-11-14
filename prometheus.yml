@@ -20,7 +20,7 @@ scrape_configs:
   
   - job_name: 'n8n-main'
     static_configs:
-      - targets: ['primary-production-2413.up.railway.app']
+      - targets: ['primary-production-2596.up.railway.app']
 
   # - job_name: 'postgres'
   #   scrape_interval: 5s
